@@ -9,13 +9,18 @@ export default function Projects() {
             <div>
               <h3 className="text-xl font-semibold mb-2">Projeto 1</h3>
               <p className="text-gray-400">
-                Atualmente estou em processo para finalização do meu projeto de bots.
+                Atualmente estou em processo para finalização do meu projeto de treinamento de bots.
               </p>
             </div>
             <div className="mt-4">
-              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md">
+              <a
+                href="https://gamersclub.com.br/team/329929" // substitua com seu link real
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md"
+              >
                 Ver mais
-              </button>
+              </a>
             </div>
           </div>
 
@@ -30,9 +35,14 @@ export default function Projects() {
               </p>
             </div>
             <div className="mt-4">
-              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md">
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" // substitua com seu link real
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md"
+              >
                 Ver mais
-              </button>
+              </a>
             </div>
           </div>
         </div>
