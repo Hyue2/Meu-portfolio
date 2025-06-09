@@ -5,7 +5,7 @@ export default function Hero() {
       <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl leading-relaxed">
         Desenvolvedor focado em criar interfaces modernas, funcionais e com alta performance. Apaixonado por responsividade e boas práticas.
       </p>
-      <a href="#projects" className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+      <a href="#projects" className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
         Ver Projetos
       </a>
     </section>

@@ -36,17 +36,17 @@ export default function Skills() {
       <div className="max-w-4xl mx-auto text-center bg-black/40 border border-white/10 rounded-xl p-6">
         <h2 className="text-3xl font-bold mb-8 text-white">Skills</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 justify-center">
           {skills.map((skill, index) => (
             <a
-              key={index}
-              href={skill.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-black/40 border border-white/10 text-white text-sm sm:text-base font-medium rounded-xl p-4 hover:bg-cyan-600 transition-colors duration-200 text-center"
-            >
-              {skill.name}
-            </a>
+                key={index}
+                href={skill.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-cyan-500 hover:bg-cyan-600 text-white text-sm font-medium rounded-md px-4 py-3 transition-colors duration-200 text-center"
+                >
+                {skill.name}
+                </a>
           ))}
         </div>
       </div>
