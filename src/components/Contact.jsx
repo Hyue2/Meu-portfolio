@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contact" className="py-20">
       <div className="max-w-4xl mx-auto">
         <CardContainer>
-          <h2 className="text-3xl font-bold mb-6 text-center">Contato</h2>
+          <h2 className="text-3xl font-bold mb-6 text-center">Contatos</h2>
 
           <div className="flex flex-col items-center space-y-6 text-gray-300 text-lg">
             {/* Email com ícone e texto */}
