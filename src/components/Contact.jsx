@@ -3,7 +3,7 @@ import CardContainer from './CardContainer';
 
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-screen py-20 px-6">
+    <section id="contact" className="py-20">
       <div className="max-w-4xl mx-auto">
         <CardContainer>
           <h2 className="text-3xl font-bold mb-6 text-center">Contato</h2>

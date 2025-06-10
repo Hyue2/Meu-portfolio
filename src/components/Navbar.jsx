@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-150 ease-in-out
+      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-in-out
         bg-gradient-to-b from-black to-cyan-950/10 backdrop-blur-md
         shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)]
         ${show ? "translate-y-0" : "-translate-y-full"}`}

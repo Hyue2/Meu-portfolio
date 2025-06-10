@@ -32,7 +32,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="min-h-screen py-20 px-6">
+    <section id="skills" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center bg-black/40 border border-white/10 rounded-xl p-6">
         <h2 className="text-3xl font-bold mb-8 text-white">Skills</h2>
 
