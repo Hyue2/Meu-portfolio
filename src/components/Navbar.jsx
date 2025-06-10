@@ -29,7 +29,6 @@ export default function Navbar() {
         <ul className="flex space-x-4 text-white text-sm font-medium">
           <li><a href="#about" className="hover:text-cyan-400 transition-colors">Sobre</a></li>
           <li><a href="#skills" className="hover:text-cyan-400 transition-colors">Skills</a></li>
-          <li><a href="#projects" className="hover:text-cyan-400 transition-colors">Projetos</a></li>
           <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contato</a></li>
         </ul>
       </div>
