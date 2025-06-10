@@ -20,11 +20,11 @@ export default function Navbar() {
         shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)]
         ${show ? "translate-y-0" : "-translate-y-full"}`}
     >
-      <div className="max-w-8xl mx-auto px-6 py-6 flex items-center justify-between">
-        <a href="#" className="text-white text-2xl font-extrabold tracking-wide">
-          Meu Portfólio
+      <div className="max-w-5xl mx-auto px-3 py-6 flex items-center justify-between">
+        <a href="#" className="text-white text-xl font-extrabold tracking-wide">
+          Luiz.Dev
         </a>
-        <ul className="flex space-x-7 text-white text-lg font-medium">
+        <ul className="flex space-x-2.5 text-white text-mm font-small">
           <li>
             <a href="#about" className="hover:text-cyan-400 transition-colors">
               Sobre
